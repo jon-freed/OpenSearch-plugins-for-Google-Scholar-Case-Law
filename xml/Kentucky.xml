@@ -1,0 +1,10 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Kentucky Case Law</ShortName>
+  <Description>Kentucky Case Law @ Google Scholar</Description>
+  <Url type="text/html" method="GET" template="http://scholar.google.com/scholar">
+    <Param name="q" value="{searchTerms}"/>
+    <Param name="hl" value="en"/>
+    <Param name="as_sdt" value="4%2C18"/>
+  </Url>
+  <Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuNWWFMmUAAAPySURBVFhHvVddTxNbFO2fMforvCqgN0ZjosaoV831wZjw4ov6ZqB1WmlabbXqNYgfSOgDoUlLEIolBgGDphq0mHsBRSRalSs69pN+0C5nn850ptPTQtG6kxXomX3OWrPPPnvPMZBtNkU2bBFinq1CLLLNHEc9QRzERZyMfKspspHnWG9IQkTiNpAankOjJY4G3VjThTi2S1CeNUh/91yM4+8bCfb8oKvwd60gboM+7LSo9rcWekEHriSw8CWHZDoP37MM0tl8TSIk7phBP0hvpx/Tg4ScuJnE/5EcFEskl3Ghd5HrXw1lAqqBhV3C6e4ke2vFRFGE3+/HWeNVNFmi3LmVUJMAgtGzjJWcSr64uAifzwez2Yzh4WEEXhTyhDeXhxIBFH5KtErb0P4wLdMWbGFhAT09PbDb7RgfH0c2m2XjQ6EMdllFHDU95K6jRZkA7W89bP0pRkA2OzuLrq4uuFwuBINBeVS1Z6E5OBwONBvd3LUU1LQFp+4lWaZPTU2ho6MD7e3tCIVCMmW5kbC2tjacNPZy1yPUJODuozQc92M45/Kjs7MTMzMzMlVlo61paW3F7vNvuWvWJECpA43mKHpHwzLF6ubyvitbS0FNArTY0RZHcG5Fpqhu0WQef13jF6h1CyAc+yeBREo9ktXsk5jD3kvfy9ZYkwB9CSbQcb0j5cRabXJyEi1XvNhjE9H9OI39zkJE1hUBCv/gi4y89Oo2MTEBp9MJt9uNmbkwPkrRULakZgFEPvJvoeCsZqlUCiMjI7BarfB4PAiHC4n75HW2WHNKBFAnpNCy/zXjCg5dTWD2Ez/xLvtTuBZQC1UkEsHQ0BBMJhP6+/uxtLQkPwEr5UeucyLAmk2FakgTwt/U7qdYdiUPiy9V9Ls3lmb9oa+vD4IgIBAIIBaLyd5gTaxV6ieKPxOgkFYqxc23kxDj5dn+PZFH851kiW+TJQbh1mPYbDaMjY0hk1Fzhdo3fUNo/ZkApXvxwm7xLbPyqzdKpGNyGPXYbolg9Okr2bNgdAz15AQmgBKLR26/r+6p1t58XmH5wJtDOONeZqFWokZJu08+dnowARR6bfgpIndH+WecFvvTWhBcacvohUggoe95huujoCQJCTSZ+jnPBl9m2HP9nJ9BiQB6s9H/+GecIrKjysfKelEUcFgK15vP5ceMzC59iGgn/UowATuF9/A9eCLTqUbZb/aqZ7YeYAKOGwfZF878/LxMDXyTMli5cNQTxYvJxe4gBgYGMD09jQ9fc8VSWU+wi4n2anba5sU5pxf7HeV9ux5gV7M/WqKb6KJIA42CiAbh95ATJ3EXb8ikRhqM8px/JYiDcdHN2GAw/ACgZOZLDC+rNAAAAABJRU5ErkJggg==</Image>
+</OpenSearchDescription>

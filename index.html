@@ -1,34 +1,61 @@
 <html>
 <head>
-<script id='opensearchdescription.xml' type="application/xml">
-  <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
-    <ShortName>my short name</ShortName>
-    <Description>my desc</Description>
-    <Url type="text/html" method="GET" template="http://scholar.google.com/scholar">
-      <Param name="q" value="{searchTerms}"/>
-      <Param name="hl" value="en"/>
-      <Param name="as_sdt" value="4%2C36"/>
-    </Url>
-    <Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuNWWFMmUAAAPySURBVFhHvVddTxNbFO2fMforvCqgN0ZjosaoV831wZjw4ov6ZqB1WmlabbXqNYgfSOgDoUlLEIolBgGDphq0mHsBRSRalSs69pN+0C5nn850ptPTQtG6kxXomX3OWrPPPnvPMZBtNkU2bBFinq1CLLLNHEc9QRzERZyMfKspspHnWG9IQkTiNpAankOjJY4G3VjThTi2S1CeNUh/91yM4+8bCfb8oKvwd60gboM+7LSo9rcWekEHriSw8CWHZDoP37MM0tl8TSIk7phBP0hvpx/Tg4ScuJnE/5EcFEskl3Ghd5HrXw1lAqqBhV3C6e4ke2vFRFGE3+/HWeNVNFmi3LmVUJMAgtGzjJWcSr64uAifzwez2Yzh4WEEXhTyhDeXhxIBFH5KtErb0P4wLdMWbGFhAT09PbDb7RgfH0c2m2XjQ6EMdllFHDU95K6jRZkA7W89bP0pRkA2OzuLrq4uuFwuBINBeVS1Z6E5OBwONBvd3LUU1LQFp+4lWaZPTU2ho6MD7e3tCIVCMmW5kbC2tjacNPZy1yPUJODuozQc92M45/Kjs7MTMzMzMlVlo61paW3F7vNvuWvWJECpA43mKHpHwzLF6ubyvitbS0FNArTY0RZHcG5Fpqhu0WQef13jF6h1CyAc+yeBREo9ktXsk5jD3kvfy9ZYkwB9CSbQcb0j5cRabXJyEi1XvNhjE9H9OI39zkJE1hUBCv/gi4y89Oo2MTEBp9MJt9uNmbkwPkrRULakZgFEPvJvoeCsZqlUCiMjI7BarfB4PAiHC4n75HW2WHNKBFAnpNCy/zXjCg5dTWD2Ez/xLvtTuBZQC1UkEsHQ0BBMJhP6+/uxtLQkPwEr5UeucyLAmk2FakgTwt/U7qdYdiUPiy9V9Ls3lmb9oa+vD4IgIBAIIBaLyd5gTaxV6ieKPxOgkFYqxc23kxDj5dn+PZFH851kiW+TJQbh1mPYbDaMjY0hk1Fzhdo3fUNo/ZkApXvxwm7xLbPyqzdKpGNyGPXYbolg9Okr2bNgdAz15AQmgBKLR26/r+6p1t58XmH5wJtDOONeZqFWokZJu08+dnowARR6bfgpIndH+WecFvvTWhBcacvohUggoe95huujoCQJCTSZ+jnPBl9m2HP9nJ9BiQB6s9H/+GecIrKjysfKelEUcFgK15vP5ceMzC59iGgn/UowATuF9/A9eCLTqUbZb/aqZ7YeYAKOGwfZF878/LxMDXyTMli5cNQTxYvJxe4gBgYGMD09jQ9fc8VSWU+wi4n2anba5sU5pxf7HeV9ux5gV7M/WqKb6KJIA42CiAbh95ATJ3EXb8ikRhqM8px/JYiDcdHN2GAw/ACgZOZLDC+rNAAAAABJRU5ErkJggg==</Image>
-  </OpenSearchDescription>
-</script>
-<script id='opensearchdescription.xml' type="application/javascript">
-//  4%2C36
-
-  // get xml
-  // https://developer.mozilla.org/en-US/docs/Using_XML_Data_Islands_in_Mozilla  
-  var sXML = document.getElementById("opensearchdescription.xml").textContent;
-
-  function doit() {
-    window.external.AddSearchProvider('data:Application/octet-stream,' + encodeURIComponent(sXML));
-  }
-  
-</script>
 <title>OpenSearch plugins for Google Scholar Case Law</title>
 </head>
 <body>
-Shortname 16 chars or less
-description 1024 chars or less
-<button onclick='doit()'>do it</button>
+<center>
+Add a Google Case Law search for a state to your browser by clicking on a state name.<br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Alabama.xml">Alabama</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Alaska.xml">Alaska</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Arizona.xml">Arizona</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Arkansas.xml">Arkansas</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/California.xml">California</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Colorado.xml">Colorado</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Connecticut.xml">Connecticut</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Delaware.xml">Delaware</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/DistOfColumbia.xml">Dist. of Columbia</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Florida.xml">Florida</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Georgia.xml">Georgia</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Hawaii.xml">Hawaii</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Idaho.xml">Idaho</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Illinois.xml">Illinois</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Indiana.xml">Indiana</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Iowa.xml">Iowa</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Kansas.xml">Kansas</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Kentucky.xml">Kentucky</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Louisiana.xml">Louisiana</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Maine.xml">Maine</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Maryland.xml">Maryland</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Massachusetts.xml">Massachusetts</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Michigan.xml">Michigan</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Minnesota.xml">Minnesota</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Mississippi.xml">Mississippi</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Missouri.xml">Missouri</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Montana.xml">Montana</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Nebraska.xml">Nebraska</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Nevada.xml">Nevada</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/NewHampshire.xml">New Hampshire</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/NewJersey.xml">New Jersey</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/NewMexico.xml">New Mexico</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/NewYork.xml">New York</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/NorthCarolina.xml">North Carolina</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/NorthDakota.xml">North Dakota</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Ohio.xml">Ohio</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Oklahoma.xml">Oklahoma</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Oregon.xml">Oregon</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Pennsylvania.xml">Pennsylvania</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/RhodeIsland.xml">Rhode Island</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/SouthCarolina.xml">South Carolina</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/SouthDakota.xml">South Dakota</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Tennessee.xml">Tennessee</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Texas.xml">Texas</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Utah.xml">Utah</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Vermont.xml">Vermont</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Virginia.xml">Virginia</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Washington.xml">Washington</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/WestVirginia.xml">West Virginia</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Wisconsin.xml">Wisconsin</a><br/>
+<a href="javascript:window.external.AddSearchProvider('https://jon-freed.github.io/OpenSearch-plugins-for-Google-Scholar-Case-Law/xml/Wyoming.xml">Wyoming</a><br/>
+</center>
 </body>
 </html>
